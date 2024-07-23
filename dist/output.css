@@ -1921,10 +1921,6 @@ video {
   border-radius: 0.75rem;
 }
 
-.rounded-lg {
-  border-radius: 0.5rem;
-}
-
 .rounded-b {
   border-bottom-right-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
@@ -2276,6 +2272,11 @@ video {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.py-14 {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
 }
 
 .pb-14 {
@@ -3008,8 +3009,64 @@ html {
     left: -5%;
   }
 
+  .md\:-right-\[15\%\] {
+    right: -15%;
+  }
+
   .md\:-right-\[5\%\] {
     right: -5%;
+  }
+
+  .md\:right-\[5\%\] {
+    right: 5%;
+  }
+
+  .md\:-bottom-\[90\%\] {
+    bottom: -90%;
+  }
+
+  .md\:-bottom-\[85\%\] {
+    bottom: -85%;
+  }
+
+  .md\:-bottom-\[70\%\] {
+    bottom: -70%;
+  }
+
+  .md\:-bottom-\[4\%\] {
+    bottom: -4%;
+  }
+
+  .md\:-bottom-\[40\%\] {
+    bottom: -40%;
+  }
+
+  .md\:-bottom-\[80\%\] {
+    bottom: -80%;
+  }
+
+  .md\:right-\[15\%\] {
+    right: 15%;
+  }
+
+  .md\:right-\[0\%\] {
+    right: 0%;
+  }
+
+  .md\:right-\[3\%\] {
+    right: 3%;
+  }
+
+  .md\:-right-\[3\%\] {
+    right: -3%;
+  }
+
+  .md\:-bottom-\[75\%\] {
+    bottom: -75%;
+  }
+
+  .md\:-left-\[3\%\] {
+    left: -3%;
   }
 
   .md\:-mt-4 {
@@ -3088,6 +3145,16 @@ html {
   .md\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .md\:py-14 {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+  }
+
+  .md\:py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
   }
 
   .md\:pb-0 {
