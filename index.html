@@ -5,19 +5,181 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./dist/output.css" rel="stylesheet" />
     <link rel="icon" type="image/png" href="./icon.png" />
-    <title>title of the website</title>
+    <title>BeautifulWeight</title>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
-
   <body class="overflow-x-hidden">
-      Remove the old github initializing..........<span class="text-green-400"
-        > Remove-Item -Recurse -Force .git</span
+    <!-- hero section -->
+    <div class="relative bg-[#030007] overflow-hidden px-3">
+      <div
+        class="flex items-center justify-between max-w-[1000px] mx-auto pt-6"
       >
-    </h1>
-    <h1>now you can start working.. .</h1>
+        <span class="text-white text-[18px] font-medium">BeautifulWeight</span>
+        <button
+          class="text-gray-700 font-semibold bg-white rounded-full px-6 py-2.5 text-[15px] border border-[#D0D5DD]"
+          style="box-shadow: 0px 1px 2px 0px #1018280d"
+        >
+          Get started
+        </button>
+      </div>
+      <div
+        class="absolute -bottom-[35%] left-0 right-0 flex items-center justify-center w-full h-[700px] z-0"
+        style="
+          background: radial-gradient(
+            50% 50% at 50% 50%,
+            #180433 0%,
+            rgba(12, 3, 23, 0.2) 100%
+          );
+        "
+      ></div>
+      <div
+        class="h-screen -mt-[40px] flex flex-col items-center justify-center text-center relative z-10 overflow-hidden max-w-[1100px] mx-auto"
+      >
+        <h1
+          class="text-white text-[38px] md:text-[55px] font-semibold max-w-[750px]"
+        >
+          Achieve your
+          <br />
+          <span
+            style="
+              background: linear-gradient(180deg, #efeefe 25.22%, #560cf4 100%);
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+            "
+            >Dream Health</span
+          >
+          with a plan tailored just for you
+        </h1>
+        <p
+          class="text-[#B7B1F0] text-[17px]"
+          style="text-shadow: 0px 1px 7px #6621facc"
+        >
+          Your journey to wellness, supported by experts and tailored to fit
+          your life.
+        </p>
+        <button
+          class="flex items-center gap-4 text-white bg-[#560CF4] rounded-full px-6 py-2.5 text-[15px] mx-auto mt-10 border border-[#560CF4]"
+          style="box-shadow: 0px 1px 7px 1px #6621facc"
+        >
+          Take the Quiz
+          <img class="max-h-[13px] w-auto" src="./images/Icon.svg" />
+        </button>
+        <p class="underline text-white text-[14px] mt-5">
+          Read Our Success Stories
+        </p>
+        <div class="hidden md:block">
+          <div
+            class="absolute top-[27%] left-0 transform -translate-y-1/2 z-[-1]"
+          >
+            <img class="w-32 h-auto" src="/images/home-1.svg" />
+          </div>
+          <div
+            class="absolute top-[35%] right-0 transform -translate-y-1/2 z-[-1]"
+          >
+            <img class="w-32 h-auto" src="/images/home-2.svg" />
+          </div>
+          <div class="absolute bottom-[8%] left-12 transform -translate-y-1/2">
+            <img class="w-32 h-auto" src="/images/home-3.svg" />
+          </div>
+          <div class="absolute bottom-[0%] right-12 transform -translate-y-1/2">
+            <img class="w-32 h-auto" src="/images/home-4.svg" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- how it works section -->
+    <div class="max-w-[1000px] mx-3 lg:mx-auto overflow-hidden">
+      <h5 class="text-[#06010C] font-bold text-[35px] py-12 px-3 lg:px-0">How It Works</h5>
+      <div class="relative">
+        <div
+          class="absolute -bottom-[50%] -right-0 md:-bottom-[95%] md:-right-[5%] z-[-1] w-full h-full md:w-[600px] md:h-[600px]"
+          style="
+            background: radial-gradient(
+              50% 50% at 50% 50%,
+              rgba(154, 98, 229, 0.6) 0%,
+              rgba(240, 229, 255, 0) 100%
+            );
+            z-index: -1;
+          "
+        ></div>
+
+        <div class="border border-gray-300 rounded-xl px-4 pt-4 pb-5 md:pb-0 md:px-8 md:pt-8">
+          <div class="flex gap-3 items-center">
+            <div
+              class="flex items-center justify-center text-white font-bold h-9 w-9 rounded-md"
+              style="
+                background: linear-gradient(180deg, #dcd9ff 0%, #b0abf8 100%);
+              "
+            >
+              1
+            </div>
+            <span
+              class="font-bold text-[18px]"
+              style="
+                background: linear-gradient(90deg, #a19bf7 0%, #6c38db 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+              "
+              >Access</span
+            >
+          </div>
+          <div class="flex flex-col md:flex-row items-start gap-5 md:gap-24">
+            <div class="md:w-3/5 flex flex-col gap-5">
+              <div
+                class="mt-5"
+                style="
+                  border-top: 1px solid;
+                  border-image-source: linear-gradient(
+                    180deg,
+                    #efeefe 0%,
+                    #560cf4 100%
+                  );
+                  border-image-slice: 1;
+                "
+              ></div>
+              <h1 class="text-[30px] leading-[40px] lg:text-[40px] lg:leading-[50px] text-[#06010C] font-semibold">
+                Start with a Personalized Assessment – It’s
+                <span class="font-bold">Quick & Confidential</span>
+              </h1>
+              <div class="hidden md:block">
+                <button
+                  class="text-gray-700 font-semibold bg-white rounded-full px-4 py-2 text-[15px] border border-gray-300"
+                  style="box-shadow: 0px 1px 2px 0px #1018280d"
+                >
+                  See how it works
+                </button>
+              </div>
+            </div>
+            <div class="md:w-2/5">
+            <div
+              class="flex flex-wrap border border-[#F2F4F7] px-3 pt-3 rounded-tl-[20px] rounded-tr-[20px] rounded-bl-[20px] rounded-br-[20px] md:rounded-bl-[0px] md:rounded-br-[0px]"
+              style="
+                background: linear-gradient(180deg, #efeefe 0%, #bfbbfa 100%);
+                box-shadow: 0px 2px 4px -2px #1018280f,
+                  0px 4px 8px -2px #1018281a;
+              "
+            >
+              <div class="w-2/4"><img src="/images/acc-1.png" /></div>
+              <div class="w-2/4"><img src="/images/acc-2.png" /></div>
+              <div class="w-2/4"><img src="/images/acc-3.png" /></div>
+              <div class="w-2/4"><img src="/images/acc-4.png" /></div>
+            </div>
+            <div class="block md:hidden mt-5">
+              <button
+                class="text-gray-700 font-semibold bg-white rounded-full px-4 py-2 w-full text-[15px] border border-gray-300"
+                style="box-shadow: 0px 1px 2px 0px #1018280d"
+              >
+                See how it works
+              </button>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        AOS.init();
+      AOS.init();
     </script>
   </body>
 </html>
