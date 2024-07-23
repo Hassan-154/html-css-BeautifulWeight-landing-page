@@ -1,6 +1,19 @@
 @font-face {
   font-family: "CircularStd";
-  src: url("fonts/CircularStd-Medium.ttf"),
+  src: url("fonts/CircularStd-Bold.ttf");
+  font-weight: bold; /* or 700 if you prefer numeric values */
+}
+
+@font-face {
+  font-family: "CircularStd";
+  src: url("fonts/CircularStd-Regular.ttf");
+  font-weight: normal; /* or 400 if you prefer numeric values */
+}
+
+@font-face {
+  font-family: "CircularStd";
+  src: url("fonts/CircularStd-Light.ttf");
+  font-weight: lighter; /* or 300 if you prefer numeric values */
 }
 
 @tailwind base;
@@ -15,6 +28,10 @@
   box-sizing: border-box;
   font-family: "CircularStd", sans-serif;
 }
+body{
+  font-family: "CircularStd", sans-serif;
+}
+
 html {
   scroll-behavior: smooth;
 }
