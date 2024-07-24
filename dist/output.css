@@ -2486,6 +2486,10 @@ video {
   font-weight: 500;
 }
 
+.font-normal {
+  font-weight: 400;
+}
+
 .font-semibold {
   font-weight: 600;
 }
@@ -2978,10 +2982,10 @@ video {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-family: "CircularStd"; */
 }
 
 body {
+  font-family: "CircularStd";
 }
 
 html {
@@ -3203,6 +3207,10 @@ html {
     padding-top: 2rem;
   }
 
+  .md\:text-\[16px\] {
+    font-size: 16px;
+  }
+
   .md\:text-\[40px\] {
     font-size: 40px;
   }
@@ -3213,6 +3221,10 @@ html {
 
   .md\:text-\[68px\] {
     font-size: 68px;
+  }
+
+  .md\:font-normal {
+    font-weight: 400;
   }
 
   .md\:leading-\[53px\] {
