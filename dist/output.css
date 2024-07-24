@@ -1,34 +1,86 @@
 @font-face {
   font-family: "CircularStd";
 
-  src: url("fonts/CircularStd-Bold.ttf");
+  src: url("fonts/CircularStd-Black.eot");
 
-  font-weight: bold;
+  font-weight: 900;
 
-  /* or 700 if you prefer numeric values */
+  font-style: normal;
 }
 
 @font-face {
   font-family: "CircularStd";
 
-  src: url("fonts/CircularStd-Regular.ttf");
+  src: url("fonts/CircularStd-BlackItalic.eot");
 
-  font-weight: normal;
+  font-weight: 900;
 
-  /* or 400 if you prefer numeric values */
+  font-style: italic;
 }
 
 @font-face {
   font-family: "CircularStd";
 
-  src: url("fonts/CircularStd-Light.ttf");
+  src: url("fonts/CircularStd-Bold.eot");
 
-  font-weight: lighter;
+  font-weight: 700;
 
-  /* or 300 if you prefer numeric values */
+  font-style: normal;
 }
 
-/* ! tailwindcss v3.4.3 | MIT License | https://tailwindcss.com */
+@font-face {
+  font-family: "CircularStd";
+
+  src: url("fonts/CircularStd-BoldItalic.eot");
+
+  font-weight: 700;
+
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "CircularStd";
+
+  src: url("fonts/CircularStd-Book.eot");
+
+  font-weight: 400;
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CircularStd";
+
+  src: url("fonts/CircularStd-BookItalic.eot");
+
+  font-weight: 400;
+
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "CircularStd";
+
+  src: url("fonts/CircularStd-Medium.eot");
+
+  font-weight: 500;
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CircularStd";
+
+  src: url("fonts/CircularStd-MediumItalic.eot");
+
+  font-weight: 500;
+
+  font-style: italic;
+}
+
+/*
+! tailwindcss v3.4.3 | MIT License | https://tailwindcss.com
+*/
 
 /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
@@ -723,12 +775,20 @@ video {
   left: 0px;
 }
 
+.left-\[2\.5\%\] {
+  left: 2.5%;
+}
+
 .right-0 {
   right: 0px;
 }
 
-.right-8 {
-  right: 2rem;
+.right-\[0\] {
+  right: 0;
+}
+
+.right-\[4\%\] {
+  right: 4%;
 }
 
 .top-\[27\%\] {
@@ -737,86 +797,6 @@ video {
 
 .top-\[35\%\] {
   top: 35%;
-}
-
-.-right-0 {
-  right: -0px;
-}
-
-.-right-\[20px\] {
-  right: -20px;
-}
-
-.-right-\[10\%\] {
-  right: -10%;
-}
-
-.left-\[\] {
-  left: ;
-}
-
-.left-\[5\%\] {
-  left: 5%;
-}
-
-.-left-\[5\%\] {
-  left: -5%;
-}
-
-.-right-\[5\%\] {
-  right: -5%;
-}
-
-.left-\[0\] {
-  left: 0;
-}
-
-.right-\[5\%\] {
-  right: 5%;
-}
-
-.right-\[0\] {
-  right: 0;
-}
-
-.left-\[\%\] {
-  left: %;
-}
-
-.left-\[\%5\] {
-  left: %5;
-}
-
-.right-\[\] {
-  right: ;
-}
-
-.right-\[5\] {
-  right: 5;
-}
-
-.left-\[5\] {
-  left: 5;
-}
-
-.left-\[2\%\] {
-  left: 2%;
-}
-
-.right-\[2\%\] {
-  right: 2%;
-}
-
-.left-\[3\%\] {
-  left: 3%;
-}
-
-.right-\[4\%\] {
-  right: 4%;
-}
-
-.left-\[2\.5\%\] {
-  left: 2.5%;
 }
 
 .isolate {
@@ -1126,6 +1106,10 @@ video {
   max-width: 1200px;
 }
 
+.max-w-\[1250px\] {
+  max-width: 1250px;
+}
+
 .max-w-\[150px\] {
   max-width: 150px;
 }
@@ -1144,10 +1128,6 @@ video {
 
 .max-w-\[830px\] {
   max-width: 830px;
-}
-
-.max-w-\[1250px\] {
-  max-width: 1250px;
 }
 
 .flex-shrink {
@@ -2498,6 +2478,10 @@ video {
   font-weight: 700;
 }
 
+.font-extrabold {
+  font-weight: 800;
+}
+
 .font-medium {
   font-weight: 500;
 }
@@ -2994,11 +2978,10 @@ video {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "CircularStd", sans-serif;
+  /* font-family: "CircularStd"; */
 }
 
-body{
-  font-family: "CircularStd", sans-serif;
+body {
 }
 
 html {
