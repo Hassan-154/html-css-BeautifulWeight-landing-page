@@ -3175,6 +3175,14 @@ html {
     gap: 2rem;
   }
 
+  .sm\:gap-6 {
+    gap: 1.5rem;
+  }
+
+  .sm\:gap-10 {
+    gap: 2.5rem;
+  }
+
   .sm\:rounded-bl-none {
     border-bottom-left-radius: 0px;
   }
@@ -3214,6 +3222,11 @@ html {
   .sm\:py-24 {
     padding-top: 6rem;
     padding-bottom: 6rem;
+  }
+
+  .sm\:py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
   }
 
   .sm\:pt-12 {
