@@ -47,6 +47,7 @@
   font-weight: 500;
   font-style: italic;
 }
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -59,7 +60,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: "CircularStd";
+ 
 }
 
 html {
