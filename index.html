@@ -23,7 +23,7 @@
         </button>
       </div>
       <div
-        class="absolute -bottom-[35%] left-0 right-0 flex items-center justify-center w-full h-[700px] z-0"
+        class="absolute -bottom-[100%]  sm:-bottom-[55%] left-0 right-0 flex items-center justify-center w-full h-[700px] z-0"
         style="
           background: radial-gradient(
             50% 50% at 50% 50%,
@@ -36,7 +36,7 @@
         class="h-screen -mt-[40px] flex flex-col items-center justify-center text-center relative z-10 overflow-hidden max-w-[1250px] mx-auto"
       >
         <h1
-          class="text-white text-[38px] md:text-[68px] font-semibold max-w-[830px]"
+          class="text-white text-[43px] md:text-[68px] md:leading-[86px] font-semibold max-w-[830px]"
         >
           Achieve your
           <br />
@@ -51,20 +51,20 @@
           with a plan tailored just for you
         </h1>
         <p
-          class="text-[#B7B1F0] text-[17px]"
+          class="text-[#B7B1F0] text-[20px] mt-5"
           style="text-shadow: 0px 1px 7px #6621facc"
         >
           Your journey to wellness, supported by experts and tailored to fit
           your life.
         </p>
         <button
-          class="flex items-center gap-4 text-white bg-[#560CF4] rounded-full px-6 py-2.5 text-[15px] mx-auto mt-10 border border-[#560CF4]"
+          class="flex items-center gap-4 text-white bg-[#560CF4] rounded-full px-6 py-2.5 text-[16px] mx-auto mt-10 border border-[#560CF4]"
           style="box-shadow: 0px 1px 7px 1px #6621facc"
         >
           Take the Quiz
           <img class="max-h-[13px] w-auto" src="./images/Icon.svg" />
         </button>
-        <p class="underline text-white text-[24px] mt-5">
+        <p class="underline text-white text-[15px] mt-5 font-semibold">
           Read Our Success Stories
         </p>
         <div class="hidden md:block">
@@ -93,7 +93,9 @@
     </div>
     <!-- how it works section -->
     <div class="max-w-[1200px] mx-3 lg:mx-auto overflow-hidden pb-14">
-      <h5 class="text-[#06010C] font-bold text-[35px] py-12 px-3 lg:px-0">
+      <h5
+        class="text-[#06010C] font-bold text-[40px] sm:text-[45px] py-7 sm:py-12 px-3 lg:px-0"
+      >
         How It Works
       </h5>
       <div class="flex flex-col gap-10">
@@ -133,9 +135,9 @@
               >
             </div>
             <div
-              class="flex flex-col md:flex-row items-start gap-4 md:gap-24 -pb-2"
+              class="flex flex-col md:flex-row items-start gap-5 md:gap-28 -pb-2"
             >
-              <div class="md:w-3/5 flex flex-col gap-4">
+              <div class="md:w-55 flex flex-col gap-5 sm:gap-8">
                 <div
                   class="mt-5"
                   style="
@@ -149,23 +151,23 @@
                   "
                 ></div>
                 <h1
-                  class="text-[30px] leading-[40px] lg:text-[49px] lg:leading-[59px] text-[#06010C] font-semibold"
+                  class="text-[30px] leading-[40px] lg:text-[48px] lg:leading-[58px] text-[#06010C] font-semibold"
                 >
                   Start with a Personalized Assessment – It’s
                   <span class="font-extrabold">Quick & Confidential</span>
                 </h1>
                 <div class="hidden md:block">
                   <button
-                    class="text-gray-700 font-semibold bg-white rounded-full px-4 py-2 text-[15px] border border-gray-300"
+                    class="text-gray-700 font-semibold bg-white rounded-full px-4 py-2.5 text-[17px] border border-gray-300"
                     style="box-shadow: 0px 1px 2px 0px #1018280d"
                   >
                     See how it works
                   </button>
                 </div>
               </div>
-              <div class="md:w-2/5">
+              <div class="md:w-45">
                 <div
-                  class="flex flex-wrap border-t border-l border-r border-[#F2F4F7] px-3 pt-3 rounded-tl-[20px] rounded-tr-[20px] rounded-bl-[20px] rounded-br-[20px] md:rounded-bl-[0px] md:rounded-br-[0px]"
+                  class="flex flex-wrap border-t border-l border-r border-[#F2F4F7] px-3 pt-4 rounded-tl-[20px] rounded-tr-[20px] rounded-bl-[20px] rounded-br-[20px] md:rounded-bl-[0px] md:rounded-br-[0px]"
                   style="
                     background: linear-gradient(
                       180deg,
@@ -178,8 +180,14 @@
                 >
                   <div class="w-2/4"><img src="/images/acc-1.png" /></div>
                   <div class="w-2/4"><img src="/images/acc-2.png" /></div>
-                  <div class="w-2/4"><img src="/images/acc-3.png" /></div>
-                  <div class="w-2/4"><img src="/images/acc-4.png" /></div>
+                  <div class="w-2/4">
+                    <img src="/images/acc-3.png" class="block md:hidden" />
+                    <img src="/images/d-acc-3.png" class="hidden md:block" />
+                  </div>
+                  <div class="w-2/4">
+                    <img src="/images/acc-4.png" class="block md:hidden" />
+                    <img src="/images/d-acc-4.png" class="hidden md:block" />
+                  </div>
                 </div>
                 <div class="block md:hidden mt-6">
                   <button
@@ -210,9 +218,9 @@
             class="border border-gray-300 rounded-xl px-4 pt-4 pb-5 md:pb-0 md:px-8 md:pt-8"
           >
             <div
-              class="flex flex-col md:flex-row-reverse items-start gap-4 md:gap-24"
+              class="flex flex-col md:flex-row-reverse items-start gap-5 md:gap-28"
             >
-              <div class="md:w-3/5 flex flex-col gap-4">
+              <div class="md:w-55 flex flex-col gap-5 sm:gap-8">
                 <div>
                   <div class="flex gap-3 items-center">
                     <div
@@ -256,23 +264,23 @@
                 </div>
 
                 <h1
-                  class="text-[30px] leading-[40px] lg:text-[49px] lg:leading-[59px] text-[#06010C] font-semibold"
+                  class="text-[30px] leading-[40px] lg:text-[48px] lg:leading-[58px] text-[#06010C] font-semibold"
                 >
                   Receive Your Custom
                   <span class="font-bold">Health Plan and Prescription</span>
                 </h1>
                 <div class="hidden md:block">
                   <button
-                    class="text-gray-700 font-semibold bg-white rounded-full px-4 py-2 text-[15px] border border-gray-300"
+                    class="text-gray-700 font-semibold bg-white rounded-full px-4 py-2.5 text-[17px] border border-gray-300"
                     style="box-shadow: 0px 1px 2px 0px #1018280d"
                   >
                     See how it works
                   </button>
                 </div>
               </div>
-              <div class="md:w-2/5 md:mt-10">
+              <div class="md:w-45 md:mt-10">
                 <div
-                  class="flex flex-wrap border-t border-l border-r border-[#F2F4F7] px-3 pt-3 rounded-tl-[20px] rounded-tr-[20px] rounded-bl-[20px] rounded-br-[20px] md:rounded-bl-[0px] md:rounded-br-[0px]"
+                  class="flex flex-wrap border-t border-l border-r border-[#F2F4F7] px-3 pt-4 rounded-tl-[20px] rounded-tr-[20px] rounded-bl-[20px] rounded-br-[20px] md:rounded-bl-[0px] md:rounded-br-[0px]"
                   style="
                     background: linear-gradient(
                       180deg,
@@ -333,8 +341,8 @@
                 >Enjoy</span
               >
             </div>
-            <div class="flex flex-col md:flex-row items-start gap-4 md:gap-24">
-              <div class="md:w-3/5 flex flex-col gap-4">
+            <div class="flex flex-col md:flex-row items-start gap-5 md:gap-28">
+              <div class="md:w-55 flex flex-col gap-5 sm:gap-8">
                 <div
                   class="mt-5"
                   style="
@@ -348,7 +356,7 @@
                   "
                 ></div>
                 <h1
-                  class="text-[30px] leading-[40px] lg:text-[49px] lg:leading-[59px] text-[#06010C] font-semibold"
+                  class="text-[30px] leading-[40px] lg:text-[48px] lg:leading-[58px] text-[#06010C] font-semibold"
                 >
                   Get Everything
                   <span class="font-bold"
@@ -357,16 +365,16 @@
                 </h1>
                 <div class="hidden md:block">
                   <button
-                    class="text-gray-700 font-semibold bg-white rounded-full px-4 py-2 text-[15px] border border-gray-300"
+                    class="text-gray-700 font-semibold bg-white rounded-full px-4 py-2.5 text-[17px] border border-gray-300"
                     style="box-shadow: 0px 1px 2px 0px #1018280d"
                   >
                     See how it works
                   </button>
                 </div>
               </div>
-              <div class="md:w-2/5">
+              <div class="md:w-45">
                 <div
-                  class="flex flex-wrap border-t border-l border-r border-[#F2F4F7] px-3 pt-3 rounded-tl-[20px] rounded-tr-[20px] rounded-bl-[20px] rounded-br-[20px] md:rounded-bl-[0px] md:rounded-br-[0px]"
+                  class="flex flex-wrap border-t border-l border-r border-[#F2F4F7] px-3 pt-4 rounded-tl-[20px] rounded-tr-[20px] rounded-bl-[20px] rounded-br-[20px] md:rounded-bl-[0px] md:rounded-br-[0px]"
                   style="
                     background: linear-gradient(
                       180deg,
@@ -395,7 +403,7 @@
     </div>
     <!-- Medical accreditations -->
     <div
-      class="py-8 sm:py-12 px-3"
+      class="py-6 sm:py-12 px-3"
       style="
         background: linear-gradient(
           180deg,
@@ -405,16 +413,16 @@
       "
     >
       <div class="max-w-[1200px] mx-auto">
-        <h1 class="text-[30px] md:text-[40px] font-bold">
+        <h1 class="text-[35px] leading-[42px] md:text-[45px] md:leading-[55px] font-bold text-[#06010C]">
           Medical accreditations
         </h1>
-        <p class="text-[15px] max-w-[580px]">
+        <p class="text-[15px] max-w-[580px] text-[#363439] mt-4 md:mt-2 font-medium">
           Our expert clinicians, dieticians and coaches will work with you to
           tailor your plan to your unique needs and challenges around weight
           loss
         </p>
         <div
-          class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-4 pt-8 sm:pt-12"
+          class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-8 sm:gap-4 pt-8 sm:pt-12"
         >
           <div class="rounded-full bg-white p-4 sm:p-6 border border-[#F2F4F7]">
             <img src="./images/md-1.png" />
@@ -439,10 +447,10 @@
     </div>
     <!-- Thousands of people’s trust -->
     <div class="max-w-[1200px] mx-auto py-8 sm:py-12 px-3">
-      <h1 class="text-[30px] md:text-[40px] font-bold">
+      <h1 class="text-[35px] leading-[42px] md:text-[45px] md:leading-[55px] font-bold text-[#06010C]">
         Thousands of people’s trust
       </h1>
-      <p class="text-[15px] max-w-[580px]">
+      <p class="text-[15px] max-w-[580px] text-[#363439] mt-4 md:mt-2 font-medium">
         Our expert clinicians, dieticians and coaches will work with you to
         tailor your plan.
       </p>
@@ -544,148 +552,170 @@
         </div>
       </div>
     </div>
-    <!-- sign in section -->
-    <div
-      class="relative flex flex-col-reverse md:flex-row overflow-hidden my-4 md:my-6"
-    >
+    <!-- combine both section to make revese in mobile -->
+    <div class="flex flex-col-reverse md:flex-col">
+      <!-- sign in section -->
       <div
-        class="absolute md:top-0 left-0 right-0 bottom-[4%] sm:bottom-[5%] md:bottom-0 flex flex-col items-start justify-center z-20 p-4 text-white max-w-[1200px] mx-auto"
-        style="width: 100%"
+        class="relative flex flex-col-reverse md:flex-row overflow-hidden md:my-6"
       >
-        <h1
-          class="font-semibold text-[42px] leading-[47px] md:text-[50px] md:leading-[55px] md:max-w-[450px]"
+        <div
+          class="absolute md:top-0 left-0 right-0 bottom-[3%] sm:bottom-[5%] md:bottom-0 flex flex-col items-start justify-center z-20 p-4 text-white max-w-[1200px] mx-auto"
+          style="width: 100%"
         >
-          Sign up in the next 4 hours to receive a
-          <span
-            style="
-              background: linear-gradient(180deg, #efeefe 25.22%, #560cf4 100%);
-              -webkit-background-clip: text;
-              -webkit-text-fill-color: transparent;
-            "
-            >30% discount</span
+          <h1
+            class="font-semibold text-[42px] leading-[47px] md:text-[50px] md:leading-[55px] md:max-w-[450px]"
           >
-          on your first month
-        </h1>
-        <button
-          class="flex w-full sm:w-auto justify-center items-center rounded-full font-semibold bg-white text-gray-700 mt-7 md:mt-14 px-4 py-2"
-        >
-          <span class="hidden md:block">
-            Schedule a No-Obligation Call to Learn More</span
+            Sign up in the next 4 hours to receive a
+            <span
+              style="
+                background: linear-gradient(
+                  180deg,
+                  #efeefe 25.22%,
+                  #560cf4 100%
+                );
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+              "
+              >30% discount</span
+            >
+            on your first month
+          </h1>
+          <button
+            class="flex w-full sm:w-auto justify-center items-center rounded-full font-semibold bg-white text-gray-700 mt-7 md:mt-14 px-4 py-2"
           >
-          <span class="block md:hidden">Get started with the Quiz</span>
-          <img src="./images/arrow.svg" class="ml-2" />
-        </button>
-      </div>
-
-      <div class="relative h-[335px] md:h-auto md:w-3/5 xl:w-1/2 bg-[#030007]">
-        <div
-          class="absolute -bottom-[35%] left-0 right-0 flex items-center justify-center w-full h-[450px] md:h-[600px] z-0"
-          style="
-            background: radial-gradient(
-              50% 50% at 50% 50%,
-              #180433 0%,
-              rgba(12, 3, 23, 0.2) 100%
-            );
-          "
-        ></div>
-      </div>
-      <div class="md:w-2/5 xl:w-1/2">
-        <img src="/images/fit.jpeg" class="h-[620px] md:max-h-[455px] w-full object-cover" />
-      </div>
-    </div>
-
-    <!-- 30-Day Satisfaction -->
-    <div class="max-w-[1200px] mx-3 lg:mx-auto py-8 md:py-16">
-      <div class="relative overflow-hidden rounded-xl">
-        <div
-          class="absolute -bottom-[98%] -right-[70%] md:-bottom-[75%] md:-right-[3%] z-[-1] w-[900px] h-[900px] md:w-[600px] md:h-[600px] rounded-xl"
-          style="
-            background: radial-gradient(
-              50% 50% at 50% 50%,
-              rgba(154, 98, 229, 0.6) 0%,
-              rgba(240, 229, 255, 0) 100%
-            );
-            z-index: -1;
-          "
-        ></div>
+            <span class="hidden md:block">
+              Schedule a No-Obligation Call to Learn More</span
+            >
+            <span class="block md:hidden">Get started with the Quiz</span>
+            <img src="./images/arrow.svg" class="ml-2" />
+          </button>
+        </div>
 
         <div
-          class="border border-gray-300 rounded-xl px-4 pt-4 pb-5 md:pb-0 md:px-8 md:pt-8 overflow-hidden"
+          class="relative h-[335px] md:h-auto md:w-3/5 xl:w-1/2 bg-[#030007]"
         >
           <div
-            class="flex flex-col md:flex-row items-start gap-4 md:gap-24 -pb-2"
+            class="absolute -bottom-[35%] left-0 right-0 flex items-center justify-center w-full h-[450px] md:h-[600px] z-0"
+            style="
+              background: radial-gradient(
+                50% 50% at 50% 50%,
+                #180433 0%,
+                rgba(12, 3, 23, 0.2) 100%
+              );
+            "
+          ></div>
+        </div>
+        <div class="md:w-2/5 xl:w-1/2">
+          <img
+            src="/images/fit.jpeg"
+            class="h-[470px] sm:h-[620px] md:max-h-[455px] w-full object-cover"
+          />
+        </div>
+      </div>
+
+      <!-- 30-Day Satisfaction -->
+      <div class="max-w-[1200px] mx-3 lg:mx-auto py-8 md:py-16">
+        <div class="relative overflow-hidden rounded-xl">
+          <div
+            class="absolute -bottom-[98%] -right-[70%] md:-bottom-[75%] md:-right-[3%] z-[-1] w-[900px] h-[900px] md:w-[600px] md:h-[600px] rounded-xl"
+            style="
+              background: radial-gradient(
+                50% 50% at 50% 50%,
+                rgba(154, 98, 229, 0.6) 0%,
+                rgba(240, 229, 255, 0) 100%
+              );
+              z-index: -1;
+            "
+          ></div>
+
+          <div
+            class="border border-gray-300 rounded-xl px-4 pt-4 pb-5 md:pb-0 md:px-8 md:pt-8 overflow-hidden"
           >
-            <div class="md:w-3/5 flex flex-col gap-6">
-              <div>
-                <h1
-                  class="text-[30px] leading-[40px] lg:text-[49px] lg:leading-[59px] text-[#06010C] font-bold"
+            <div
+              class="flex flex-col md:flex-row items-start gap-4 md:gap-24 -pb-2"
+            >
+              <div class="md:w-3/5 flex flex-col gap-6">
+                <div>
+                  <h1
+                    class="text-[30px] leading-[40px] lg:text-[49px] lg:leading-[59px] text-[#06010C] font-bold"
+                  >
+                    30-Day Satisfaction Guarantee on All Plans
+                  </h1>
+                  <p class="text-[#363439] mt-3">
+                    Our expert clinicians, dieticians and coaches will work with
+                    you.
+                  </p>
+                </div>
+                <div class="flex flex-col gap-3">
+                  <div class="flex gap-3 items-center">
+                    <div><img src="/images/mark.png" class="h-6 w-6" /></div>
+                    <span class="text-[#5D5B61] font-medium"
+                      >Healthy meal plan</span
+                    >
+                  </div>
+                  <div class="flex gap-3 items-center">
+                    <div><img src="/images/mark.png" class="h-6 w-6" /></div>
+                    <span class="text-[#5D5B61] font-medium"
+                      >Doctor consultation</span
+                    >
+                  </div>
+                  <div class="flex gap-3 items-center">
+                    <div><img src="/images/mark.png" class="h-6 w-6" /></div>
+                    <span class="text-[#5D5B61] font-medium"
+                      >Wegovy medicine</span
+                    >
+                  </div>
+                </div>
+                <div class="hidden md:block">
+                  <div class="flex gap-4 items-center">
+                    <button
+                      class="flex items-center gap-4 text-white bg-[#560CF4] rounded-full px-6 py-2.5 text-[15px] border border-[#560CF4]"
+                      style="box-shadow: 0px 1px 7px 1px #6621facc"
+                    >
+                      Try It Risk-Free
+                    </button>
+                    <span class="underline text-gray-700 font-medium"
+                      >Learn More About Privacy</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="md:w-2/5 md:pt-8">
+                <div
+                  class="flex flex-wrap border-t border-l border-r border-[#F2F4F7] px-3 pt-3 rounded-tl-[20px] rounded-tr-[20px] rounded-bl-[20px] rounded-br-[20px] md:rounded-bl-[0px] md:rounded-br-[0px]"
+                  style="
+                    background: linear-gradient(
+                      180deg,
+                      #efeefe 0%,
+                      #bfbbfa 100%
+                    );
+                    box-shadow: 0px 2px 4px -2px #1018280f,
+                      0px 4px 8px -2px #1018281a;
+                  "
                 >
-                  30-Day Satisfaction Guarantee on All Plans
-                </h1>
-                <p class="text-[#363439] mt-3">
-                  Our expert clinicians, dieticians and coaches will work with
-                  you.
-                </p>
-              </div>
-              <div class="flex flex-col gap-3">
-                <div class="flex gap-3 items-center">
-                  <div><img src="/images/mark.png" class="h-6 w-6" /></div>
-                  <span class="text-[#5D5B61] font-medium"
-                    >Healthy meal plan</span
-                  >
+                  <div class="w-2/4"><img src="/images/acc-1.png" /></div>
+                  <div class="w-2/4"><img src="/images/acc-2.png" /></div>
+                  <div class="w-2/4">
+                    <img src="/images/acc-3.png" class="block md:hidden" />
+                    <img src="/images/d-acc-3.png" class="hidden md:block" />
+                  </div>
+                  <div class="w-2/4">
+                    <img src="/images/acc-4.png" class="block md:hidden" />
+                    <img src="/images/d-acc-4.png" class="hidden md:block" />
+                  </div>
                 </div>
-                <div class="flex gap-3 items-center">
-                  <div><img src="/images/mark.png" class="h-6 w-6" /></div>
-                  <span class="text-[#5D5B61] font-medium"
-                    >Doctor consultation</span
-                  >
-                </div>
-                <div class="flex gap-3 items-center">
-                  <div><img src="/images/mark.png" class="h-6 w-6" /></div>
-                  <span class="text-[#5D5B61] font-medium"
-                    >Wegovy medicine</span
-                  >
-                </div>
-              </div>
-              <div class="hidden md:block">
-                <div class="flex gap-4 items-center">
-                  <button
-                    class="flex items-center gap-4 text-white bg-[#560CF4] rounded-full px-6 py-2.5 text-[15px] border border-[#560CF4]"
-                    style="box-shadow: 0px 1px 7px 1px #6621facc"
-                  >
-                    Try It Risk-Free
-                  </button>
-                  <span class="underline text-gray-700 font-medium"
-                    >Learn More About Privacy</span
-                  >
-                </div>
-              </div>
-            </div>
-            <div class="md:w-2/5 md:pt-8">
-              <div
-                class="flex flex-wrap border-t border-l border-r border-[#F2F4F7] px-3 pt-3 rounded-tl-[20px] rounded-tr-[20px] rounded-bl-[20px] rounded-br-[20px] md:rounded-bl-[0px] md:rounded-br-[0px]"
-                style="
-                  background: linear-gradient(180deg, #efeefe 0%, #bfbbfa 100%);
-                  box-shadow: 0px 2px 4px -2px #1018280f,
-                    0px 4px 8px -2px #1018281a;
-                "
-              >
-                <div class="w-2/4"><img src="/images/acc-1.png" /></div>
-                <div class="w-2/4"><img src="/images/acc-2.png" /></div>
-                <div class="w-2/4"><img src="/images/acc-3.png" /></div>
-                <div class="w-2/4"><img src="/images/acc-4.png" /></div>
-              </div>
-              <div class="block md:hidden mt-6">
-                <div class="flex flex-col gap-4 items-center">
-                  <button
-                    class="flex items-center gap-4 text-white bg-[#560CF4] rounded-full px-6 py-2.5 text-[15px] border border-[#560CF4]"
-                    style="box-shadow: 0px 1px 7px 1px #6621facc"
-                  >
-                    Try It Risk-Free
-                  </button>
-                  <span class="underline text-gray-700 font-medium"
-                    >Learn More About Privacy</span
-                  >
+                <div class="block md:hidden mt-6">
+                  <div class="flex flex-col gap-4 items-center">
+                    <button
+                      class="flex items-center gap-4 text-white bg-[#560CF4] rounded-full px-6 py-2.5 text-[15px] border border-[#560CF4]"
+                      style="box-shadow: 0px 1px 7px 1px #6621facc"
+                    >
+                      Try It Risk-Free
+                    </button>
+                    <span class="underline text-gray-700 font-medium"
+                      >Learn More About Privacy</span
+                    >
+                  </div>
                 </div>
               </div>
             </div>
@@ -695,7 +725,7 @@
     </div>
     <!-- get started now -->
     <div
-      class="py-8 sm:py-20 px-3 md:px-3"
+      class="py-16 sm:py-24 px-3 md:px-3"
       style="
         background: linear-gradient(
           180deg,
@@ -705,11 +735,13 @@
       "
     >
       <div>
-        <h1 class="text-[#06010C] text-[40px] font-bold text-center">
+        <h1
+          class="text-[#06010C] text-[42px] leading-[46px] font-bold text-center"
+        >
           Your Health Deserves It
         </h1>
         <button
-          class="flex items-center gap-4 text-white bg-[#560CF4] rounded-full w-full md:w-auto mt-6 px-6 mx-auto py-2.5 text-[15px] border border-[#560CF4]"
+          class="flex justify-center items-center gap-4 text-white bg-[#560CF4] rounded-full w-full md:w-auto mt-6 px-6 mx-auto py-2.5 text-[15px] border border-[#560CF4]"
           style="box-shadow: 0px 1px 7px 1px #6621facc"
         >
           Get Started Now
@@ -718,7 +750,7 @@
     </div>
     <!-- footer -->
     <div
-      class="max-w-[1200px] mx-auto text-[#06010C] py-8 sm:py-12 px-3 lg:px-0 font-normal"
+      class="max-w-[1200px] mx-auto text-[#06010C] pt-12 px-3 lg:px-0 font-normal"
     >
       <div class="flex flex-col gap-5 md:gap-0 md:flex-row">
         <div class="md:w-1/2">
@@ -736,19 +768,19 @@
         </div>
         <div class="md:w-1/2 flex flex-col md:flex-row gap-6 md:gap-10">
           <div class="md:w-1/2 flex gap-10 font-semibold">
-            <div class="flex flex-col gap-3">
+            <div class="flex flex-col gap-4">
               <a>How it works</a>
               <a>Results</a>
               <a>FAQs</a>
               <a>Contact us</a>
             </div>
-            <div class="flex flex-col gap-3">
+            <div class="flex flex-col gap-4">
               <div><span>Customer service</span></div>
               <div><span>1 (800) 874-5881</span></div>
               <div><span class="underline">Request call</span></div>
             </div>
           </div>
-          <div class="md:w-1/2 text-[14.5px]">
+          <div class="flex flex-col gap-1.5 md:w-1/2 text-[14px] max-w-[257px]">
             <p class="font-semibold">Pharmacy GPHC Number: 9011989</p>
             <p>Pharmacy Superintendent Name: Dr Hassan Farah</p>
             <p>Pharmacy Superintendent GPHC Number: 2075016</p>
@@ -761,31 +793,35 @@
           </div>
         </div>
       </div>
-      <div class="flex items-center max-w-[390px] justify-between mt-4">
+      <div
+        class="flex items-center sm:max-w-[390px] justify-between mt-7 md:-mt-6"
+      >
         <div
-          class="rounded-full bg-white p-4 sm:p-5 border border-[#F2F4F7 max-w-[110px]"
+          class="rounded-full bg-white p-4 sm:p-5 border border-[#F2F4F7 max-w-[100px]"
         >
           <img src="./images/md-1.png" />
         </div>
         <div
-          class="rounded-full bg-white p-4 sm:p-5 border border-[#F2F4F7 max-w-[110px]"
+          class="rounded-full bg-white p-4 sm:p-5 border border-[#F2F4F7 max-w-[100px]"
         >
           <img src="./images/md-2.png" />
         </div>
         <div
-          class="rounded-full bg-white p-4 sm:p-5 border border-[#F2F4F7 max-w-[110px]"
+          class="rounded-full bg-white p-4 sm:p-5 border border-[#F2F4F7 max-w-[100px]"
         >
           <img src="./images/md-3.png" />
         </div>
       </div>
       <div class="border-t border-[#06010C] my-6"></div>
-      <div class="flex gap-3 flex-col-reverse md:flex-row justify-between">
+      <div
+        class="flex gap-3 flex-col-reverse md:flex-row justify-between font-semibold pb-6"
+      >
         <div>
           <span class="text-[14px] md:text-[16px]"
             >BeautifulWeight © 2024 - All Rights Reserved</span
           >
         </div>
-        <div class="flex gap-5 font-semibold md:font-normal">
+        <div class="flex justify-between md:gap-5 font-semibold">
           <a>Cookie Policy</a>
           <a>Terms & Conditions</a>
           <a>Privacy Policy</a>
