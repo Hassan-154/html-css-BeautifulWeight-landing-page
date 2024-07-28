@@ -2419,6 +2419,14 @@ video {
   padding-top: 2rem;
 }
 
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
+.pb-3 {
+  padding-bottom: 0.75rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -3338,6 +3346,10 @@ html {
 
   .md\:max-w-\[450px\] {
     max-width: 450px;
+  }
+
+  .md\:max-w-\[257px\] {
+    max-width: 257px;
   }
 
   .md\:flex-row {
